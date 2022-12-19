@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Exercise6_點餐APP</string>
+    <string name="title">點餐系統</string>
+    <string name="mmenu">主餐選單</string>
+    <string name="dmenu">飲料選單</string>
+    <string name="tv_noMsg">無</string>
+    <string name="mealA">A餐</string>
+    <string name="mealB">B餐</string>
+    <string name="mealC">C餐</string>
+    <string name="mealD">D餐</string>
+    <string name="tv_drink">飲料：</string>
+    <string name="tv_sugar">甜度：</string>
+    <string name="tv_ice">溫度：</string>
+    <string name="latte">拿鐵</string>
+    <string name="cappuccino">卡布</string>
+    <string name="blacktea">紅茶</string>
+    <string name="orangejuice">橙汁</string>
+    <string name="Sfree">無糖</string>
+    <string name="Sless">少糖</string>
+    <string name="Shalf">半糖</string>
+    <string name="Sregular">全糖</string>
+    <string name="hot">熱飲</string>
+    <string name="Ifree">去冰</string>
+    <string name="Iless">少冰</string>
+    <string name="Iregular">正常</string>
+    <string name="tv_tableNo">桌號：</string>
+    <string name="ed_tableNo">請輸入桌號</string>
+    <string name="btn_meal">主餐</string>
+    <string name="btn_drink">飲料</string>
+    <string name="btn_reOrder">重新點餐</string>
+    <string name="btn_orderConfirm">確認送出</string>
+    <string name="tv_orderMsg">－－－－您的餐點如下－－－－</string>
+    <string name="tv_line">－－－－－－－－－－－－</string>
+    <string name="meal">主餐：無</string>
+    <string name="drink">飲料：無\n\n甜度：無\n\n冰塊：無
+    </string>
+</resources>

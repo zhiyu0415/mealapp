@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_mMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/mmenu"
+        android:textColor="#009688"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_table2"
+        android:layout_width="124dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="67dp"
+        android:text="@string/tv_noMsg"
+        android:textColor="#FF5722"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_mMenu" />
+
+    <TextView
+        android:id="@+id/table2No"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="33dp"
+        android:text="@string/tv_tableNo"
+        android:textColor="#FF5722"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_mMenu" />
+
+    <CheckBox
+        android:id="@+id/checkBox_A"
+        android:layout_width="90dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="38dp"
+        android:text="@string/mealA"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_line" />
+
+    <CheckBox
+        android:id="@+id/checkBox_B"
+        android:layout_width="90sp"
+        android:layout_height="48sp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/mealB"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_A" />
+
+    <CheckBox
+        android:id="@+id/checkBox_C"
+        android:layout_width="90sp"
+        android:layout_height="48sp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/mealC"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_B" />
+
+    <CheckBox
+        android:id="@+id/checkBox_D"
+        android:layout_width="90sp"
+        android:layout_height="48sp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/mealD"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_C" />
+
+    <Button
+        android:id="@+id/btn_orderConfirm"
+        android:layout_width="126dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/btn_orderConfirm"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_D" />
+
+    <TextView
+        android:id="@+id/tv_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/tv_line"
+        android:textColor="#673AB7"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_table2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
